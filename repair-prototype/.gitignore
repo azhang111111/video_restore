@@ -1,0 +1,6 @@
+.tools/
+__pycache__/
+test-output/
+build/
+dist/
+*.spec

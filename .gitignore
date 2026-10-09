@@ -1,0 +1,35 @@
+# Downloaded engines and model weights are installed locally.
+.tools/
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.spec
+
+# Local video samples, generated exports and task reports.
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.ts
+*.m4v
+*.mts
+*.m2ts
+*.webm
+*.wmv
+*.3gp
+*_repaired_*.json
+*_enhanced_*.json
+*_diagnosis_*.json
+*_preview_*.json
+test-output/
+video-repair-*/
+ai-frames-*/
+
+# Machine-specific files.
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
